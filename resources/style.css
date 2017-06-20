@@ -1,18 +1,37 @@
-.top
-.middle
+.top,
+.middle,
 .bottom{
-  background-color: gray;
-  display: inline-flex;
+  background-color: lightgray;
+  display: flex;
   min-height: 200px;
   justify-content: center;
   align-items: center;
   border-style: solid;
   border-width: 1px;
+  justify-content: space-around;
+  margin: 10px 0px 10px 0px;
 }
 
 .grow-box{
-  color: blue;
-  width: 100px;
-  height: 100px;
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  justify-content: space-around;
+  opacity: 0.5;
+}
 
+.shrink-box{
+  background-color: lightcoral;
+  width: 250px;
+  height: 250px;
+  justify-content: space-around;
+
+}
+
+h1{
+  display: block;
+}
+
+body{
+  font-family: monospace;
 }
