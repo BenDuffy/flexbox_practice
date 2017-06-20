@@ -1,0 +1,18 @@
+.top
+.middle
+.bottom{
+  background-color: gray;
+  display: inline-flex;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.grow-box{
+  color: blue;
+  width: 100px;
+  height: 100px;
+
+}
